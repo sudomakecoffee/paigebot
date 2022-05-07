@@ -1,12 +1,23 @@
 {
   "name": "paigeb0t",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
+  "description": "We must eternalize mother",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sudomakecoffee/paigebot.git"
+  },
   "scripts": {
     "start": "ts-node src/index.ts"
   },
   "dependencies": {
+    "@twurple/api": "^5.1.6",
+    "@twurple/auth": "^5.1.6",
+    "@twurple/chat": "^5.1.6",
+    "@twurple/common": "^5.1.6",
+    "@twurple/eventsub": "^5.1.6",
+    "@twurple/pubsub": "^5.1.6",
     "dotenv": "^16.0.0",
     "dotenv-expand": "^8.0.3"
   },
