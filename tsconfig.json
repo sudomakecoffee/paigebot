@@ -19,9 +19,12 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "paths": {
-      "@config/*": [
-        "config/*"
+      "@config": [
+        "config"
       ],
+      "@errorHandler": [
+        "services/error"
+      ]
     }
   }
 }
