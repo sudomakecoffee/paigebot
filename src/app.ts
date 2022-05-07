@@ -1,3 +1,1 @@
-export const startApp = async () => {
-  
-}
+export const startApp = async () => {};
